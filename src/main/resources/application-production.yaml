@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgres://jentezar:qJkkjRbHmU5JhlHH1gPKb1IdRRdSSQJw@dpg-cogl41f109ks73apqga0-a.ohio-postgres.render.com/lab10postgres
+    username: jentezar
+    password: qJkkjRbHmU5JhlHH1gPKb1IdRRdSSQJw
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  sql:
+    init:
+      mode: always
